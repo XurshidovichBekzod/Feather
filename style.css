@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+input,
+button {
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+header{
+    background-color: #FBF8F5;
+}
+.navbar__wrapper{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar__collection{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.navbar__icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar__icon img:nth-child(2){
+    width: 25px;
+}
+.Feather{
+    background-color: #FBF8F5;
+}
+.feather__wrapper{
+    display: flex;
+    align-items: center;
+}
+.feather__context,
+.feather__img{
+    width: 50%;
+}
+.feather__context{
+    max-width: 100%;
+}
+.feather__context h2{
+    font-size: 64px;
+}
+.feather__context p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 18px;
+    width: 523px;
+    line-height: 28px;
+}
+.feather__context button{
+    padding: 16px 32px;
+    background-color: #E9672B;
+    border: 2px solid #E9672B;
+    color: black;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 46px;
+    cursor: pointer;
+    transition: .3s;
+}
+.feather__context button:hover{
+    background-color: inherit;
+    color: #E9672B;
+}
+.shop__title{
+    text-align: center;
+    font-size: 35px;
+}
+.shop__wrapper{
+    display: ruby;
+    gap: 35px;
+}
+.shop__card{
+    width: 244px;
+    border: 3px solid #E9672B;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 40px;
+    box-shadow: #CBC6F4 5.95px 5.95px 1.6px;
+}
+.shop__card:nth-child(2){
+    border: 3px solid #225DCA;
+    box-shadow: #E7CB43 5.95px 5.95px 1.6px;
+}
+.shop__card:nth-child(3){
+    border: 3px solid #242947;
+    box-shadow: #A2D4C5 5.95px 5.95px 1.6px;
+}
+.shop__card:nth-child(4){
+    border: 3px solid #DE4333;
+    box-shadow: #AF4920 5.95px 5.95px 1.6px;
+}
+.shop__card p{
+    padding: 15px 0;
+    font-size: 17px;
+}
+.shop__flex{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 43px;
+}
+
+
+
+@media (max-width:970px) {
+    .navbar__collection{
+        display: none;
+    }
+    .navbar__icon{
+        display: none;
+    }
+}
+@media (max-width:1091px){
+    .feather__context p{
+        font-size: 16px;
+        width: 480px;
+    }
+    .feather__context h2{
+        font-size: 55px;
+        width: 480px;
+    }
+    .feather__context button{
+        padding: 15px 25px;
+    }
+
+}
+@media (max-width:992px){
+    .feather__context p{
+        font-size: 15px;
+        width: 450px;
+        line-height: 22px;
+    }
+    .feather__context h2{
+        font-size: 55px;
+        width: 480px;
+    }
+    .feather__context button{
+        padding: 13px 25px;
+    }
+
+}
+@media (max-width: 913px) {
+    .feather__wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feather__context {
+        width: 100%;
+        display: flex;
+        flex-direction: column; /* MATNLAR pastma-past joylashishi uchun */
+        align-items: center; /* markazga */
+        text-align: center; /* matnni markazga */
+    }
+}
+@media (max-width: 472px) {
+    .feather__wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feather__context {
+        width: 100%;
+        display: flex;
+        flex-direction: column; /* MATNLAR pastma-past joylashishi uchun */
+        align-items: center; /* markazga */
+        text-align: center; /* matnni markazga */
+    }
+    .feather__context p{
+        width: 80%;
+        font-size: 13px;
+    }
+    .feather__context h2{
+        width: 100%;
+        font-size: 35px;
+    }
+}
+@media (max-width: 907px) {
+    .shop__title{
+        margin-top: 40px;
+    }
+    .shop__wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
