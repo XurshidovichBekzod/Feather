@@ -68,14 +68,3 @@
 // }
 
 
-//8
-// {
-//     function teskariSoz(soz) {
-//         let yangiSoz = '';
-//         for (let i = soz.length - 1; i >= 0; i--) {
-//           yangiSoz += soz[i];
-//         }
-//         return yangiSoz;
-//       }
-//       console.log(teskariSoz("assalomu alaykum"));
-// }
