@@ -77,5 +77,5 @@
 //         }
 //         return yangiSoz;
 //       }
-//       console.log(teskariSoz("assalomu alaykum")); // "molas"
+//       console.log(teskariSoz("assalomu alaykum"));
 // }
